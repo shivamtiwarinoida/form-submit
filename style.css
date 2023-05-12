@@ -63,7 +63,7 @@ body{
     border-radius: 0.6rem;
     box-shadow: 0.6rem 0.6rem 0.6rem rgb(253, 2, 253);
     display: none;
-    width: 30%;
+    width: 60%;
 }
 
 
@@ -135,4 +135,7 @@ body{
     .form label{
         margin: 0.2rem;
     }
+    
+    .msg{
+        font-size:0.9rem;
 }
