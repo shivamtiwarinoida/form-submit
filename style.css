@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("back.jpg") ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo ,.foot{
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    padding: 0.5rem;
+}
+
+.logo .logoh{
+    color: red;
+}
+
+.logo:hover , .foot:hover{
+    background-color: navy;
+    text-decoration: underline;
+}
+
+.contact{
+    background-color: black;
+    border: 0.1rem solid white;
+    border-radius: 0.6rem;
+    box-shadow: 0.8rem 0.8rem 0.8rem rgb(250, 0, 250);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:60%;
+    margin: 3rem auto;
+    min-width: 300px;
+}
+
+.contact:hover{
+    background-color:navy;
+}
+
+.confirm{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    background-color: white;
+    border: 0.15rem solid black;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    box-shadow: 0.6rem 0.6rem 0.6rem rgb(253, 2, 253);
+    display: none;
+    width: 30%;
+}
+
+
+.showme{
+    display: block;
+}
+
+
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border:0.1rem solid rgb(253, 19, 19);
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    margin: 1rem;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.3rem;
+    overflow: hidden;
+    padding: 1rem;
+    width: auto;
+    overflow-wrap: break-word;
+}
+
+.form input{
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+}
+
+.form label{
+    margin: 0.3rem;
+}
+
+.form button{
+    background-color: red;
+    border: 0.1rem solid white;
+    box-shadow: 0.4rem 0.4rem 0.6rem aliceblue;
+    border-radius: 0.6rem;
+    color: white;
+    padding: 0.6rem;
+    margin: 0.6rem;
+}
+
+.form button:hover{
+    border-color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media (max-width:360px) {
+    .form{
+        font-size: 1rem;
+    }
+
+    .form input{
+        padding: 0.1rem;
+        margin: 0.1rem;
+    }
+
+    .form label{
+        margin: 0.2rem;
+    }
+}
